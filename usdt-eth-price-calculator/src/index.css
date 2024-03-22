@@ -1,0 +1,15 @@
+@import-normalize;
+/* bring in normalize.css styles */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: lightgrey;
+  background-image: url('./ethereum-fees-lowest-1.png');
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
