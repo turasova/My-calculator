@@ -24,6 +24,7 @@ const App: React.FC = () => {
   };
 
   const handleChangeEthAmount = (event: React.ChangeEvent<HTMLInputElement>) => {
+
     setEthAmount(parseFloat(event.target.value));
   };
 
